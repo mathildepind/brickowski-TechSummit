@@ -1,0 +1,164 @@
+<!-- prettier-ignore-start -->
+export { default as theme } from './src'
+import { Head, Image, Link } from 'mdx-deck'
+import { Layout, LayoutNoFooter, CodeSanbox, Split, BGImage } from './src'
+import { CodeSurfer } from 'mdx-deck-code-surfer'
+import nightOwl from 'prism-react-renderer/themes/nightOwl'
+
+
+
+export default Layout
+
+# Brickowski
+
+---
+
+export default Layout
+
+# A need for better learning
+
+---
+
+export default Layout
+
+# Bot/Crawler traffic
+
+---
+
+export default Layout
+
+# Product driven apps
+
+---
+
+export default Split
+
+<img style={{ maxHeight: '100vh' }} src={require('file-loader!./images/emmet.png')} />
+
+<div>
+
+  ### What is Brickowski?
+
+  - Greenfield learning opportunity
+  - Testing ground
+  - Recruitment tool
+  - Public API
+
+</div>
+
+---
+
+export default Layout
+
+# How do we build Brickowski?
+
+---
+
+export default Layout
+
+## We want Brickowski to be the same as Octan but also different!
+
+---
+
+export default Split
+
+<div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+
+  ## Stack used on<br/>Octan
+
+  <img style={{width: 400}} src={require('file-loader!./images/gql.svg')} />
+  <img style={{width: 400, marginTop: '-50px'}} src={require('file-loader!./images/react.png')} />
+  <img style={{width: 400, backgroundColor: 'white', padding: '0 10px', borderRadius: 5}} src={require('file-loader!./images/apollo.svg')} />
+</div>
+
+<div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', borderLeft: '1px solid white'}}>
+
+  ## Stack used on Brickowski
+
+  <img style={{width: 400}} src={require('file-loader!./images/gql.svg')} />
+  <img style={{width: 400, marginTop: '-50px'}} src={require('file-loader!./images/react.png')} />
+  <img style={{width: 400, backgroundColor: 'white', padding: '0 10px', borderRadius: 5}} src={require('file-loader!./images/apollo.svg')} />
+</div>
+
+---
+
+export default Layout
+
+## Lose the sensitive information <br/> but keep the fun! 
+
+---
+
+export default Split
+
+<img style={{maxHeight: '100vh'}}  src={require('file-loader!./images/getSchema.svg')} />
+
+<div>
+
+  ### Problem 1
+
+  #### For security reasons, schema fetching is<br/>disabled in production on Octan
+
+</div>
+
+---
+
+export default Split
+
+<div>
+
+  ### Problem 2
+
+  #### We are exposing too many endpoints<br/>with this schema
+
+</div>
+
+<div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center'}} >
+  <div>
+    <img style={{maxWidth: '100%', maxHeight: '100%'}} src={require('file-loader!./images/query.svg')} />
+  </div>
+  <div>
+    <img style={{maxWidth: '100%', maxHeight: '100%'}} src={require('file-loader!./images/mutations.svg')} />
+  </div>
+</div>
+
+---
+
+export default Split
+
+<img style={{ maxHeight: '100vh' }} src={require('file-loader!./images/brickschema.svg')} />
+
+  - Remove Mutations from schema
+  - Remove query fields that we do not want to expose
+  - Keep the fun parts!
+
+---
+
+export default Layout
+
+
+<a href="http://localhost:4000/graphql" target="_blank">
+
+
+### Octan Playground
+
+</a>
+
+<a href="http://localhost:4001/graphql" target="_blank">
+
+### Brickowski Playground
+
+</a>
+
+---
+
+export default Layout
+
+# Now we can make something!
+
+<a target="_blank" href="http://localhost:8001">
+  <img style={{ marginTop: '50px', cursor: 'pointer', maxHeight: '50vh' }} src={require('file-loader!./images/painter.png')} />
+</a> 
+
+
+
+<!-- prettier-ignore-end -->
